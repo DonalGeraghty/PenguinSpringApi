@@ -27,6 +27,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-pubsub -->
+		<dependency>
+			<groupId>com.google.cloud</groupId>
+			<artifactId>google-cloud-pubsub</artifactId>
+			<version>1.112.5</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -73,5 +81,6 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
+
 
 </project>
